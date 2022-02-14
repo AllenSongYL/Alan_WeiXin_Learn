@@ -1,2 +1,66 @@
 <!--pages/demo01/demo01.wxml-->
-<text>pages/demo01/demo01.wxml</text>
+<view>Hello World</view>
+<text>欢迎来到我的小程序!</text>
+
+<view>
+  === 循环数组 ===
+  <view wx:for="{{listB}}" wx:key="name">
+    索引：{{index}}， 值： {{item}}
+  </view>
+</view>
+
+<view>
+  === 循环对象1 ===
+  <view wx:for="{{obj1}}" wx:key="id" wx:for-index="key"  wx:for-item="value">
+    对象名称：{{key}}， 对象属性： {{value}}
+  </view>
+</view>
+
+<view>
+  === 循环对象2 ===
+  <view wx:for="{{listA}}" wx:key="id" wx:for-item="value" wx:for-index="key">
+    ID：{{value.id}}， 名称： {{value.name}}
+  </view>
+</view>
+
+<view>
+  === block ===
+  <block wx:for="{{listA}}" wx:key="id" wx:for-item="value" wx:for-index="key">
+    ID：{{value.id}}， 名称： {{value.name}} 
+  </block>
+</view>
+
+<view>
+  <text>=== wx:if === </text>
+  <view wx:if="{{true}}">显示</view>
+  <view wx:if="{{false}}">隐藏</view>
+
+  <view wx:if="{{false}}">if</view>
+  <view wx:elif="{{false}}">elif</view>
+  <view wx:else="{{true}}">else</view>
+  <view hidden>hidden</view>
+  <text>===</text>
+</view>
+
+<view>
+  <text selectable decode>
+    dfdfafg
+    &nbsp;
+    adfadfg &lt; ""
+  </text>
+</view>
+
+<view>
+  <navigator url="/pages/calculator/calculator"> 
+    === 导航到tabbar页面 === 
+  </navigator>
+  <navigator url="/pages/img/img"> 
+    === 导航到其他页面 === 
+  </navigator>
+  <navigator url="/pages/calculator/calculator" open-type="switchTab"> 
+    === 导航到其他页面(switchTab) === 
+  </navigator>
+</view>
+
+
+
