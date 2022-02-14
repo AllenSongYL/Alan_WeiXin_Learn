@@ -1,0 +1,20 @@
+<!--pages/mine/mine.wxml-->
+<swiper autoplay interval="1000" indicator-dots circular 			indicator-active-color="#0d8df2">
+  <swiper-item> 
+    <image src="https://s3.bmp.ovh/imgs/2022/02/a003928025b6ed27.webp" mode="aspectFill"></image> 
+  </swiper-item>
+
+  <swiper-item>
+    <image src="https://s3.bmp.ovh/imgs/2022/02/9823d23fc6bc2adb.webp" mode="aspectFill" ></image>
+  </swiper-item>
+
+  <swiper-item>
+    <image src="https://s3.bmp.ovh/imgs/2022/02/062b70ca732c395f.webp" mode="aspectFill"></image>
+  </swiper-item>
+  
+  <swiper-item>
+    <image src="https://s3.bmp.ovh/imgs/2022/02/dd50e6d7c1e0ff82.webp" mode="aspectFill"></image>
+  </swiper-item>
+
+</swiper>
+<text>alan</text>

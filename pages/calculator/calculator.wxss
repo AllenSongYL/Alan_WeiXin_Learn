@@ -1,0 +1,7 @@
+/* pages/calculator/calculator.wxss */
+
+#a1{
+  background-color: aqua;
+  width: 100%;
+  height: 100rpx;
+}

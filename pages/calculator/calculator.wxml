@@ -1,0 +1,7 @@
+<!--pages/calculator/calculator.wxml-->
+<input type="text" bindinput="getInput" id="a1"/>
+<button bindtap="addOne" data-operation="{{1}}">+</button>
+<button bindtap="addOne" data-operation="{{-1}}">-</button>
+<view>
+  result:{{num}}
+</view>
